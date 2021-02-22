@@ -19,6 +19,7 @@ textarea {
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
+  padding: 2rem;
 }
 
 .description {
@@ -76,17 +77,23 @@ textarea {
   border-bottom: 1px solid rgb(216, 216, 216);
 }
 
-.task {
-  height: 100px;
+textarea.task {
+  height: 100%;
   word-wrap: break-word;
 }
 
-.col-sm-8 {
+.col-sm-10 {
   padding-left: 0px;
   padding-right: 0px;
 }
 
 .row {
   margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
 }
 
+.container {
+  height: 1050px;
+}
